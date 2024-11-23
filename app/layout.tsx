@@ -1,7 +1,9 @@
+
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
+import NextTopLoader from 'nextjs-toploader';
 
 const font = Space_Grotesk({ subsets: ["latin"] });
 
@@ -24,13 +26,27 @@ export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
+
 }>) {
   return (
     <html lang="en">
       <body className={font.className}>
 
-        {children}
-        <Analytics />
+        <>
+        <NextTopLoader
+         color="#0B0479"
+         height={4}
+         easing="ease"
+         speed={70}
+         shadow="0 0 10px #2299DD,0 0 5px #2299DD"
+         template='<div class="bar" role="bar"><div class="peg"></div></div> 
+         <div class="spinner" role="spinner"><div class="spinner-icon"></div></div>'
+         zIndex={1600}
+         showAtBottom={false}
+        />
+          {children}
+          <Analytics />
+        </>
 
       </body>
     </html>

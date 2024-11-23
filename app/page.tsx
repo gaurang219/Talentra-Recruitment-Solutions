@@ -22,6 +22,8 @@ import ShineBorder from "@/components/ui/shine-border";
 import ShinyButton from "@/components/ui/shiny-button";
 import { RainbowButton } from "@/components/ui/rainbow-button";
 import ShimmerButton from "@/components/ui/shimmer-button";
+import { Bounce, ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -66,6 +68,49 @@ const services = [
 
 export default function Home() {
 
+  const difftost = () =>{
+    toast.success('Hoor Rayyy..', {
+      position: "top-right",
+      autoClose: 1000,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      transition: Bounce,
+      });
+  }
+
+
+  const difftost1 = () =>{
+    toast.success('Hoor Rayyy..', {
+      position: "top-right",
+      autoClose: 1000,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      transition: Bounce,
+      });
+  }
+
+  
+  const difftost2 = () =>{
+    toast.success('Hoor Rayyy..', {
+      position: "top-right",
+      autoClose: 1000,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      transition: Bounce,
+      });
+  }
 
   return (
     
@@ -132,8 +177,9 @@ export default function Home() {
           </a>
           
 
-         <Link href="/meeting">
+         <Link onClick={difftost} href="/meeting">
          <RainbowButton>Book</RainbowButton>
+         <ToastContainer />
          </Link>
 
 
@@ -166,6 +212,7 @@ export default function Home() {
                    "
           >
             <Link
+              onClick={difftost1}
               href="/meeting"
             >
               <div className="z-10 flex items-center justify-center">
@@ -174,11 +221,13 @@ export default function Home() {
                  Book Call
                 </span>
               </ShimmerButton>
+            <ToastContainer />
             </div>
+
             </Link>
             <Link
               href={"/showcase"}
-              
+              onClick={difftost1}
             >
              <ShimmerButton className="shadow-2xl">
                 <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10  lg:text-lg">
@@ -186,6 +235,7 @@ export default function Home() {
                 </span>
               </ShimmerButton>
             </Link>
+            <ToastContainer />
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center text-left md:justify-items-center md:mx-auto mt-10 md:mt-16">

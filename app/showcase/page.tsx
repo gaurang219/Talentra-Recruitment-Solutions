@@ -1,3 +1,5 @@
+"use client"
+
 import { BlurFadeDemo } from "@/components/demos/blur-fade-demo";
 import Footer from "@/components/footer";
 import WordFadeIn from "@/components/magicui/word-fade-in";
