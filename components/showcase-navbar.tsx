@@ -78,7 +78,7 @@ xl:w-4/5
       href={"/meeting"}
       >
       <RainbowButton className="">Book?</RainbowButton>
-      </Link>https://github.com/gaurang219/productionwebapp
+      </Link>
       </div>
     </div>
   );
