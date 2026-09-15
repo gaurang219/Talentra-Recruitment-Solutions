@@ -1,7 +1,7 @@
 "use client";
 
 import React, { forwardRef, useRef } from "react";
-import logo from "../../public/images/relives.png"
+import logo from "../../public/images/Talentra.png"
 
 import { cn } from "@/lib/utils";
 import { AnimatedBeam } from "@/components/magicui/animated-beam";

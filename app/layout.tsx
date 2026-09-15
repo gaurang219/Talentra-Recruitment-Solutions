@@ -4,16 +4,17 @@ import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import NextTopLoader from 'nextjs-toploader';
+import logo from "../public/images/relives.png"
 
 const font = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Relives | Design & Development Studio",
-  description: "Grow your business with Relives, a design & development studio.",
+  title: "Talentra Recruitment Solutions",
+  // description: "Grow your business with Relives, a design & development studio.",
   openGraph: {
     images: [
       {
-        url: "http://localhost:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frelives.676f82cc.png&w=1080&q=75",
+        url: "",
         width: 1200,
         height: 630,
         alt: 'Relives Logo',

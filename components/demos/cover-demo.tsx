@@ -12,8 +12,8 @@ export function CoverDemo() {
         relative
          z-20 
          bg-clip-text
-          text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
-        Elevate your brand with <br />  <Cover>Relives InfoTech</Cover>
+          text-transparent bg-gradient-to-b from-neutral-600 via-neutral-450 to-neutral-450 dark:from-neutral-800 dark:via-white dark:to-white">
+        "Career Support. Job Search Strategy. Interview Preparation"<br /> <Cover> Talentra Recruitment Solutions</Cover>
       </h1>
     </div>
   );

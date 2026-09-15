@@ -6,61 +6,61 @@ import Image from "next/image";
 const features = [
   {
     icon: "/icons/fast.svg",
-    title: "Fast Delivery",
+    title: "Career Support",
     description:
-      "1-2 weeks delivery for most projects. Call us for more information.",
+      "Guidance based on your professional background and career goals.",
   },
   {
     icon: "/icons/design.svg",
-    title: "Design & Development",
+    title: "Structured Job Search",
     description:
-      "We design and develop your website with the latest technologies and trends.",
+      "An organized approach to managing your career opportunities.",
   },
   {
     icon: "/icons/scalable.svg",
-    title: "Scalability + Maintenance ",
-    description: "We offer maintenance and scalability for all websites.",
+    title: "Resume & LinkedIn Guidance ",
+    description: "Build a stronger professional presence.",
   },
   {
     icon: "/icons/team.svg",
-    title: "Team of Experts",
-    description: "A team of experts ready to help you, at all times.",
+    title: "Interview Preparation",
+    description: "Prepare with guidance and practice before important interviews.",
   },
   {
     icon: "/icons/safe.svg",
-    title: "Secure Building",
+    title: "Application Transparency",
     description:
-      "Safe and secure building practices. To ensure your data is safe.",
+      "Stay informed about your job-search activity and progress..",
   },
   {
     icon: "/icons/analytics.svg",
-    title: "Analytics Tracking",
-    description: "Track your progress with our built in analytics",
+    title: "Flexible Support",
+    description: "Career support designed around your individual needs and situation.",
   },
 
-  {
-    icon: "/icons/flexible.svg",
-    title: "Dynamic Websites",
-    description: "We build dynamic solutions that are easy to manage.",
-  },
-  {
-    icon: "/icons/support.svg",
-    title: "24/7 Support",
-    description:
-      "We offer 24/7 support for all our clients. Call us for more information.",
-  },
-  {
-    icon: "/icons/money.svg",
-    title: "Affordable Pricing",
-    description: "Affordable pricing for all our clients.",
-  },
+  // {
+  //   icon: "/icons/flexible.svg",
+  //   title: "Dynamic Websites",
+  //   description: "We build dynamic solutions that are easy to manage.",
+  // },
+  // {
+  //   icon: "/icons/support.svg",
+  //   title: "24/7 Support",
+  //   description:
+  //     "We offer 24/7 support for all our clients. Call us for more information.",
+  // },
+  // {
+  //   icon: "/icons/money.svg",
+  //   title: "Affordable Pricing",
+  //   description: "Affordable pricing for all our clients.",
+  // },
 ];
 
 export function ShootingStarsAndStarsBackgroundDemo() {
   return (
     <div className="mt-20 py-10 md:py-20 rounded-[40px] bg-neutral-900 flex flex-col items-center justify-center relative w-full px-6 md:px-0">
       <h2 className="relative flex-col  z-10 text-3xl md:text-5xl md:leading-tight max-w-5xl mx-auto text-center tracking-tight font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-400 via-white to-white flex items-center gap-2 ">
-        Our guarantees to you.
+        Why Choose Talentra?.
         <p className="md:text-center   mx-auto  text-xl md:text-2xl text-gray-200">
           We ensure the highest quality of work, with the fastest delivery
           times.

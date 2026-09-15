@@ -9,7 +9,8 @@ const Calendly =  () => {
     <div className="w-full ">
       <InlineWidget
       styles={{ height: "1000px" }}
-      url="https://calendly.com/darjigaurang882/metting" />
+      url="https://calendly.com/talentrarecruitmentsolutions" />
+     
     </div> );
 }
  

@@ -16,7 +16,7 @@ import { Link as ScrollLink, Element } from "react-scroll";
 import { IconStarFilled } from "@tabler/icons-react";
 import { ShootingStarsAndStarsBackgroundDemo } from "@/components/demos/shooting-stars-demo";
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
-import logo from "../public/images/relives.png"
+import logo from "../public/images/Talentra.png"
 import me from '../public/images/cute.jpeg'
 import ShineBorder from "@/components/ui/shine-border";
 import ShinyButton from "@/components/ui/shiny-button";
@@ -30,39 +30,39 @@ import 'react-toastify/dist/ReactToastify.css';
 const services = [
   {
     icon: "/images/s_6.png",
-    title: "Web Design + Development",
+    title: "📄 Resume & Profile Optimization",
     description:
-      "Take your business to the next level with our web design and development services",
+      "Build a stronger professional resume and improve your LinkedIn presence",
   },
   {
     icon: "/images/s_1.png",
-    title: "Search Engine Optimization",
+    title: "🔍 Job Search Support",
     description:
-      "Get your website to the top of search engine results with our SEO services",
+      "Receive guidance in identifying relevant opportunities aligned with your skills and goals",
   },
   {
     icon: "/images/s_5.png",
-    title: "Content Creation",
+    title: "💼 Application Tracking",
     description:
-      "Boost your brand's online presence with our social media marketing services",
+      "Stay informed about your job-search activity through an organized application process",
   },
   {
     icon: "/images/s_3.png",
-    title: "Social Media Marketing",
+    title: "🎤 Interview Preparation",
     description:
-      "Interact with your customers and increase sales with our email marketing services",
+      "Prepare for interviews with guidance, study materials, and mock interview support",
   },
   {
     icon: "/images/s_4.png",
-    title: "Email Marketing",
+    title: "🤝 Recruiter Coordination",
     description:
-      "With our content creation services, we help businesses drive results",
+      "Get assistance with interview scheduling and communication throughout the process",
   },
   {
     icon: "/images/s_2.png",
-    title: "Pay-Per-Click Advertising",
+    title: "💻 Technical Career Guidance",
     description:
-      "Don't waste money on ineffective advertising. Our PPC services help you reach your target audience",
+      "Additional technical guidance may be provided when relevant to your role and career path",
   },
 ];
 
@@ -139,9 +139,9 @@ export default function Home() {
 
         <div className="absolute right-1/2 translate-x-1/2 transform">
           <div className="hidden md:flex gap-x-10 items-center text-gray-700 font-medium text-lg cursor-pointer">
-            <Link href={"/showcase"} className="hover:text-blue-500">
+            {/* <Link href={"/showcase"} className="hover:text-blue-500">
               Showcase
-            </Link>
+            </Link> */}
 
             <ScrollLink
               to="services"
@@ -170,9 +170,9 @@ export default function Home() {
         </div>
 
         <div className="flex items-center gap-x-4">
-          <a href="tel:931323531" className="hidden lg:flex">
-            <button className="px-4 py-2 rounded-md flex items-center gap-x-3">
-             9313235331
+          <a href="tel:+1 (484) 304-0730" className="hidden lg:flex">
+            <button className="px-45 py-2 rounded-md flex items-center gap-x-3">
+             📞 +1 (484) 304-0730
             </button>
           </a>
           
@@ -197,10 +197,9 @@ export default function Home() {
           </h1>
           <p
             className="md:text-center
-           text-xl md:text-2xl my-6 md:my-10 md:w-4/5 mx-auto text-gray-500"
+           text-sm md:text-2xl my-6 md:my-10 md:w-4/5 mx-auto text-gray-500"
           >
-            Schedule a call with us to discuss your project and get a quote in
-            minutes
+            We help international students and professionals navigate their U.S. job search with structured career support, application management, interview preparation, and personalized guidance.
           </p>
 
           <div
@@ -218,7 +217,7 @@ export default function Home() {
               <div className="z-10 flex items-center justify-center">
               <ShimmerButton className="shadow-2xl">
                 <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10  lg:text-lg">
-                 Book Call
+                 📅 Book Free Consultation
                 </span>
               </ShimmerButton>
             <ToastContainer />
@@ -229,43 +228,43 @@ export default function Home() {
               href={"/showcase"}
               onClick={difftost1}
             >
-             <ShimmerButton className="shadow-2xl">
+             {/* <ShimmerButton className="shadow-2xl">
                 <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10  lg:text-lg">
-                 Showcase
+                 Showcase1
                 </span>
-              </ShimmerButton>
+              </ShimmerButton> */}
             </Link>
             <ToastContainer />
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center text-left md:justify-items-center md:mx-auto mt-10 md:mt-16">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-12 items-center text-left md:justify-items-center md:mx-auto mt-10 md:mt-16">
             <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
                 <PiCheckBold className="text-xl text-blue-500" />
-                Design
+                Career Strategy
               </p>
             </BoxReveal>
             <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
                 <PiCheckBold className="text-xl text-blue-500" />
-                Development
+                Resume & LinkedIn Optimization
               </p>
             </BoxReveal>
             <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
                 <PiCheckBold className="text-xl text-blue-500" />
-                Marketing
+                Targeted Job Search Support
               </p>
             </BoxReveal>
             <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
                 <PiCheckBold className="text-xl text-blue-500" />
-                Strategy
+                Application Management
               </p>
             </BoxReveal>
           </div>
 
-          <div className="md:flex items-center justify-between gap-y-4 my-10 gap-x-28 mx-auto">
+          {/* <div className="md:flex items-center justify-between gap-y-4 my-10 gap-x-28 mx-auto">
             <div className="md:w-2/5">
               <h1 className="text-2xl font-medium text-gray-600 w-4/5">
                 Trusted by fast moving brands worldwide
@@ -274,7 +273,7 @@ export default function Home() {
               <div className="flex my-6 gap-x-5 w-full">
                 <div>
                   <h1 className="text-blue-500 text-3xl md:text-5xl">
-                    <NumberTicker value={18} /> +
+                    <NumberTicker value={28} /> +
                     <p className="text-gray-500 text-sm md:text-md">
                       Happy Clients
                     </p>
@@ -292,25 +291,25 @@ export default function Home() {
                   </h1>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <section className="overflow-hidden mt-10 md:w-4/5">
+            {/* <section className="overflow-hidden mt-10 md:w-4/5">
               <InfiniteMovingLogos
-                speed="slow"
+                speed="fast"
                 direction="left"
                 items={[
                   {
-                    logo: "/logo/logo.webp",
-                    name: "Logo",
+                    logo: "/logo/figma.png",
+                    name: "logo",
                   },
                   {
-                    logo: "/logo/logo.webp",
+                    logo: "/images/Oracle.jpg",
                     name: "Logo",
                   },
                 ]}
               />
-            </section>
-          </div>
+            </section> */}
+          {/* </div> */}
         </div>
       </main>
 
@@ -319,8 +318,8 @@ export default function Home() {
         <h1>
           <WordPullUpDemo />
         </h1>
-        <p className="md:text-center py-4 md:w-1/2 mx-auto text-xl md:text-2xl text-gray-500">
-        All of our services are designed to help your business stand out 
+        <p className="md:text-center py-4 md:w-1/2 mx-auto text-md md:text-lg text-gray-500">
+        Our goal is to provide structured career guidance throughout your job-search journey.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
@@ -376,8 +375,7 @@ export default function Home() {
           <p className="text-center 
           py-4 md:w-1/2 mx-auto 
           text-xl md:text-2xl text-gray-500">
-            All of our services are designed to help your business to get
-            noticed.
+            All of our services are designed to help to ypu get a fast job.
           </p>
 
           <div className="flex flex-col md:flex-row items-center justify-center w-full md:w-1/2 mx-auto">
@@ -393,7 +391,7 @@ export default function Home() {
         </main>
       </Element>
 
-      <section>
+      {/* <section>
         <main className="md:flex items-center justify-center space-y-6 md:space-y-0 md:gap-x-20 xl:w-4/5 2xl:w-[68%] mx-auto px-6 md:px-0">
           <Image
             src={me}
@@ -419,11 +417,11 @@ export default function Home() {
 
             <span className="text-xl font-medium">
               Gaurang, Darji <br />
-              {/* CEO, Relives */}
+              CEO, Talentra
             </span>
           </div>
         </main>
-      </section>
+      </section> */}
 
       <Element name="guarentees">
         <ShootingStarsAndStarsBackgroundDemo />
@@ -435,7 +433,7 @@ export default function Home() {
 
       <footer className="bg-[#fafafa] py-10  px-6 md:px-0 md:mx-auto border-t">
         <div className="flex md:justify-center gap-x-4 mt-10">
-          © 2024 Relives. All Rights Reserved.
+          © 2024 Talentra Recruitment Solutions. All Rights Reserved | Career Support • Job Search Strategy • Interview Preparation
         </div>
       </footer>
     </div>

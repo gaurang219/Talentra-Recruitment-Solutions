@@ -29,26 +29,31 @@ const Meeting = () => {
         <div className="md:w-2/5">
           <h1 className="text-4xl font-semibold pt-10   ">Let&apos;s Meet</h1>
           <p className="text-lg text-gray-500 py-4">
-            We are always excited to meet new people and discuss new projects.
+            We are always excited to meet new people and discuss new things.
             Please feel free to book a meeting with us.
           </p>
 
           {[
                 {
-                  title: "Development + Design",
+                  title: "🎯 Career Strategy",
                   description:
-                    "Turn your ideas into reality with our development and design services.",
+                    "Create a structured job-search strategy based on your experience and career goals.",
                 },
 
                 {
-                  title: "Free Consultation",
+                  title: "📄 Resume & LinkedIn Optimization",
                   description:
-                    "Get expert advice on how to improve your business and increase your online presence.",
+                    "Improve your professional profile to better present your skills and experience.",
                 },
                 {
-                  title: "Technical Support",
+                  title: "🔎 Targeted Job Search Support",
                   description:
-                    "Get technical support for your website or application.",
+                    "Get structured support with identifying and managing relevant job opportunities.",
+                },
+                 {
+                  title: "🚀 Application Management",
+                  description:
+                    "Stay organized with application tracking, follow-ups, and job-search reporting.",
                 },
               ].map((item, index) => (
                 <motion.div
@@ -59,7 +64,7 @@ const Meeting = () => {
                   transition={{ delay: index * 1.8 }}
                   className="flex gap-x-4 py-4"
                 >
-                  <PiCheckCircle className=" rounded-md text-[#3d80d7] text-2xl flex-shrink-0" />
+                  {/* <PiCheckCircle className=" rounded-md text-[#3d80d7] text-2xl flex-shrink-0" /> */}
                   <ul>
                     <h3 className="text-lg font-bold text-gray-700">
                       {item.title}

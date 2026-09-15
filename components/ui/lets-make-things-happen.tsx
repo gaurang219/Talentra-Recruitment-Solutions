@@ -33,19 +33,18 @@ function LetsMakeThingsHappenSection() {
       {/* <BorderBeam/> */}
       <div className="md:pr-[22rem]">
         <p className="text-3xl font-medium">
-          Let&apos;s make things happen
+          Ready&apos; to Take the Next Step in Your Career?
         </p>
 
         <p className="my-10 text-xl">
-          Contact us today to learn more about how our digital marketing
-          services can help your business grow and succeed online.
+          Schedule a consultation with Talentra Recruitment Solutions and let's discuss your career goals and how our team can support your job-search journey.
         </p>
 
         <Link
           href="/meeting"
           onClick={difftost}
         >
-          <RainbowButton>  Book a Call</RainbowButton>
+          <RainbowButton>📅 Book Free Consultation</RainbowButton>
         <ToastContainer/>
         </Link>
       </div>
